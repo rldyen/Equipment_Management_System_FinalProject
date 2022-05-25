@@ -1,0 +1,66 @@
+.modalContainer{
+    margin: auto;
+    width: 25%;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    border-style: solid;
+    border-width: thin;
+    border-color: darkgray;
+    background: white;
+    padding: 40px;
+    position: fixed;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.modalBody{
+    align-content: center;
+    text-align: center; 
+}
+
+.modalHeaderText {
+    color: #4e685d;
+    font-weight: bold;
+}
+
+.modalContainer .modalBody input[type=submit]{
+    background: #4e685d;
+    color: white;
+    width: 150px;
+    padding: 4px;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.modalContainer .modalBody input[type=submit]:hover{
+    color: red;
+}
+
+.cancelContainer{
+    width: 150px;
+    padding: 4px;
+    padding: 4px;
+    cursor: pointer;
+    display: inline-block;
+    background: darkred;
+}
+
+.cancelContainer a{
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.cancelContainer a:hover{
+    color: blue;
+    text-decoration: none;
+}
+
+
+
+
+
+
+

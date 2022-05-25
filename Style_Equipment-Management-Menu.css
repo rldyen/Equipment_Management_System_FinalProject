@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Century Gothic', sans-serif;
+}
+  
+body{
+    height: 100vh;
+    width: 100%;
+    background-image: url("images/equipment_bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.formContainer{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+  
+.formContainer{
+    background: #FFFF;
+    width: 1500px;
+    padding: 50px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    border-style: solid;
+    border-width: thin;
+    border-color: darkgray;
+}
+  
+.formContainer .welcomeText{
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    color: #4e685d;
+    padding: 8px;
+    margin-bottom: 36px;
+}
+  
+.formContainer form{
+    margin-top: -20px;
+}
+  
+.formContainer form .searchBorder input[type=text]{
+    padding-left: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-size: 14px;
+    border: 1px solid silver;
+}
+  
+.formContainer form .searchBorder input:focus{
+    border-color: #3498db;
+    border-bottom-width: 2px;
+}
+
+.formContainer input[type=submit]{
+    background: #4e685d;
+    color: white;
+    margin: auto;
+    padding: 4px;
+    cursor: pointer;
+}
+
+.formContainer input[type=submit]:hover{
+    color: red;
+}
+
+.incorrectText{
+    font-weight: bold;
+    color:red;
+    text-align: left;
+    position: absolute;
+}
+
+table{
+    height: 10px;
+    text-align: left;
+    width: 100%;
+}
+
+th, td{
+    text-align: left;
+    overflow: hidden;
+    width: 210px;
+}
+
+a{
+    color: green;
+    padding-right: 4px;
+    padding-left: 4px;
+    text-decoration: none;
+}
+
+
+a:hover {
+    color: darkred;
+    text-decoration: underline;
+}
+
+.logoutRef{
+    text-align: right;
+    float: right;
+    color: white;
+    background:darkred;
+    padding: 8px;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.createEquipmentRef{
+    text-align: right;
+    float: right;
+    color: white;
+    background:#4e685d;
+    padding: 8px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.logoutRef:hover{
+    color:blue;
+    text-decoration: none;
+}
+
+.createEquipmentRef:hover{
+    color: red;
+    text-decoration: none;
+}
+
+.success{
+    width: 410px;
+    padding: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color:darkred;
+    text-align: center;
+    background: pink;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.formContainer form th, td {
+    padding: 4px;
+  }
+
+
+
+
+  
+  
+  
